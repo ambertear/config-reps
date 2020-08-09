@@ -26,17 +26,17 @@ spring:
     port: 16378
     password: 
 
-  rabbitmq:
-    host: 127.0.0.1
-    port: 5672
-    username: guest
-    password: guest
+#   rabbitmq:
+#     host: 127.0.0.1
+#     port: 5672
+#     username: guest
+#     password: guest
   http:
     multipart:
       max-file-size: 1000MB
       max-request-size: 1000MB
-  zipkin: 
-    base-url: http://localhost:5001
+#   zipkin: 
+#     base-url: http://localhost:5001
 redis:
   cache:
     expiration: 3601
